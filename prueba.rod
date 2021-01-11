@@ -1,0 +1,26 @@
+programa proyecto;
+var 
+    int i;
+
+funcion int fibonacci(int x)
+{
+    si(x == 0 | x == 1)entonces{
+        regresa(1);
+    }
+    regresa(fibonacci(x - 1) + fibonacci(x - 2));
+}
+
+principal(){
+    escribe("Valor limite: ");
+    lee(i);
+    escribe("Valor de fibonacci:");
+    escribe(fibonacci(i));
+}
+
+
+
+
+
+
+
+
